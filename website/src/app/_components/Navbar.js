@@ -7,8 +7,8 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-background py-4 items-center flex justify-around container lg:my-4">
-      <div className="hidden lg:flex text-3xl w-3/4 font-bold">
+    <nav className="bg-background py-4 items-center w-full flex justify-between lg:my-4">
+      <div className="hidden lg:flex text-3xl container font-bold">
         <h1>SMACS-Mt San Antonio College</h1>
       </div>
       <div className="flex justify-around lg:justify-end w-full lg:space-x-12 ">

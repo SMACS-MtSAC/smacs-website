@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mx-8 md:mx-10 flex flex-col items-center h-screen ">
+    <div className="flex flex-col">
       <Navbar />
       {/* Mobile/Tablet */}
       <div className="lg:hidden flex flex-col items-center space-y-2">
@@ -47,11 +47,11 @@ export default function Home() {
       </div>
 
       {/* Desktop */}
-      <div className="hidden lg:flex flex-row items-center h-screen">
+      <div className="hidden lg:flex flex-row items-center h-[calc(100vh-100px)]">
         <img
           src="/images/logo.png"
           alt="SMACS Logo"
-          className="mb-8 w-1/1 md:w-1/2 lg:w-1/3 border-none"
+          className="mb-8 size-1/2 object-none border-none"
         />
         <div className="flex flex-col space-y-4">
           <h1 className="text-left text-5xl">
