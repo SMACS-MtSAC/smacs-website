@@ -1,9 +1,7 @@
-import Navbar from "@/components/Navbar";
 import EventCard from "@/components/Cards/EventCard";
 const Events = () => {
   return (
     <div className="w-full">
-      <Navbar />
       <h1 className="text-2xl md:text-4xl text-center md:text-left">
         SMACS Events
       </h1>

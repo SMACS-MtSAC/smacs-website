@@ -1,10 +1,8 @@
-import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <Navbar />
       {/* Mobile/Tablet */}
       <div className="lg:hidden flex flex-col items-center space-y-2">
         <img
@@ -73,7 +71,7 @@ export default function Home() {
                 Events
               </Link>
               <Link
-                className="bg-gray border-gray text-background border-2 hover:text-black hover:bg-background text-white font-bold py-2 px-4 md:px-8 lg:px-12 rounded"
+                className="bg-gray border-gray border-2 hover:text-black hover:bg-background text-white font-bold py-2 px-4 md:px-8 lg:px-12 rounded"
                 href="/projects"
               >
                 Projects
