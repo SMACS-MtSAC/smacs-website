@@ -8,19 +8,22 @@ const Projects = () => {
       <hr className="border-2 border-gray-500" />
       <div className="flex flex-col items-center space-y-4">
         <ProjectCard
-          title="Project 1"
-          description="Velit in consectetur dolore cupidatat id dolor cillum veniam nulla eiusmod veniam et. Do nulla aliqua irure nulla Lorem. Minim exercitation enim eiusmod deserunt consectetur duis dolor est irure sunt sit cillum. Voluptate in Lorem reprehenderit deserunt. Excepteur et nostrud veniam aliqua."
+          title="Physics Notes"
+          description="Contains Physics Topics that follow the Physics Course Curicullum at MtSAC. Lecture pages contains interactive simulations of physics concepts to aid understanding of topics through visualizations."
           imageUrl="/imagess/logo.png"
+          projectUrl="/projects/physics-notes"
         />
         <ProjectCard
-          title="Project 2"
-          description="In magna cupidatat magna laborum eiusmod elit ad nisi velit qui occaecat. Ex magna consectetur velit esse ea commodo commodo eu est. Consectetur elit dolore do nostrud in. Aute minim amet ex eiusmod anim deserunt in et nulla sunt reprehenderit sint aliquip sunt. Pariatur est ea proident officia ex sit enim. Cillum ea consectetur anim cupidatat nostrud."
+          title="All Physics Visualizations"
+          description="Contains all the physics visualizations created by the SMACS club. The visuals that are use in the Physics Notes are also available here."
           imageUrl="/imagess/logo.png"
+          projectUrl="/projects/physics-visualizations"
         />
         <ProjectCard
-          title="Project 3"
-          description="Do cupidatat labore proident proident nostrud quis laborum consequat deserunt consequat quis amet eiusmod consequat. Ullamco et officia aute officia sunt dolor deserunt qui deserunt voluptate et. Excepteur cupidatat proident minim et laboris."
+          title="Code for Visualizations"
+          description="Contains the guide for creating the visualizations in other SMACS Projects. The guides teaches how math and science concepts are visualized and how we can use those concepts to visualize. It contains not only the code but also how the concepts such as the equations are transformed into code."
           imageUrl="/imagess/logo.png"
+          projectUrl="/projects/visualizations-code"
         />
       </div>
     </div>
