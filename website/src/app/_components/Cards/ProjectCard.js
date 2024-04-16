@@ -20,7 +20,7 @@ const ProjectCard = ({ title, description, imageUrl, projectUrl }) => {
           {description}
         </p>
         <a
-          className="md:w-3/4 lg:w-1/2 font-bold py-2 px-4 rounded border-2 border-gray hover:bg-gray hover:text-background"
+          className="md:w-3/4 lg:w-1/2 font-bold py-2 px-4 rounded border-2 border-gray bg-gray text-background hover:bg-background hover:text-black"
           href={projectUrl}
         >
           Open Project

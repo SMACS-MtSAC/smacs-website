@@ -17,13 +17,7 @@ const Projects = () => {
           title="All Physics Visualizations"
           description="Contains all the physics visualizations created by the SMACS club. The visuals that are use in the Physics Notes are also available here."
           imageUrl="/imagess/logo.png"
-          projectUrl="/projects/physics-visualizations"
-        />
-        <ProjectCard
-          title="Code for Visualizations"
-          description="Contains the guide for creating the visualizations in other SMACS Projects. The guides teaches how math and science concepts are visualized and how we can use those concepts to visualize. It contains not only the code but also how the concepts such as the equations are transformed into code."
-          imageUrl="/imagess/logo.png"
-          projectUrl="/projects/visualizations-code"
+          projectUrl="https://smacs-mtsac.github.io/smacs-visuals/"
         />
       </div>
     </div>

@@ -2,7 +2,7 @@ import LinkButton from "@/components/Buttons/LinkButton";
 
 const About = () => {
   return (
-    <div className="flex flex-col container text-center md:text-left">
+    <div className="flex flex-col container text-center md:text-left pb-12">
       <h1 className="text-2xl md:text-4xl">About SMACS</h1>
       <div className="text-sm md:text-lg lg:text-xl md:indent-12">
         <p className="">
@@ -58,7 +58,7 @@ const About = () => {
         beyond the focus. The club welcomes concepts outside the primary scope,
         and these projects can also be showcased on the club’s website.
       </p>
-      <LinkButton text="Meet the Team!" url="/members" color="dark" />
+      {/* <LinkButton text="Meet the Team!" url="/members" color="dark" /> */}
     </div>
   );
 };
