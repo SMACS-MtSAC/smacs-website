@@ -17,13 +17,13 @@ const EventCard = ({ title, description, time, date, location, advisors }) => {
           <p className="text-lg lg:text-xl font-semibold">{date}</p>
           <p className="text-lg lg:text-xl font-semibold">{location}</p>
         </div>
-        <p className="md:hidden text-lg lg:text-xl">
+        <p className="md:hidden text-lg lg:text-xl text-center">
           <span className="font-semibold">Advisors: </span>
           {advisors}
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center space-y-2 md:space-x-2 md:space-y-0">
-        <a
+      <div className="flex flex-col md:flex-row items-center space-y-2 md:space-x-2 md:space-y-0 w-full justify-center">
+        {/* <a
           className="font-bold py-2 px-4 lg:px-12 rounded text-center border-2 border-gray text-gray"
           href="https://discord.gg/yB4DGpH884"
         >
@@ -34,6 +34,12 @@ const EventCard = ({ title, description, time, date, location, advisors }) => {
           href="https://discord.gg/yB4DGpH884"
         >
           Join Event
+        </a> */}
+        <a
+          className="font-bold py-2 px-6 lg:px-20 rounded text-center border-2 border-gray bg-gray text-background hover:bg-background hover:text-black"
+          href="https://discord.gg/yB4DGpH884"
+        >
+          More Information on Discord
         </a>
       </div>
     </div>

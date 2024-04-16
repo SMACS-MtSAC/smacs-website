@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-background py-4 items-center w-full flex justify-between lg:my-4">
+    <nav className="sticky top-0 z-50 bg-background py-4 items-center w-full flex justify-between lg:my-4">
       <div className="hidden lg:flex text-3xl container font-bold">
         <h1>SMACS-Mt San Antonio College</h1>
       </div>

@@ -1,4 +1,4 @@
-const ProjectCard = ({ title, description, imageUrl }) => {
+const ProjectCard = ({ title, description, imageUrl, projectUrl }) => {
   const imageExists = (imageUrl) => {
     try {
       const image = require(`${imageUrl}`);
@@ -20,8 +20,8 @@ const ProjectCard = ({ title, description, imageUrl }) => {
           {description}
         </p>
         <a
-          className="md:w-3/4 lg:w-1/2 font-bold py-2 px-4 rounded border-2 border-gray hover:bg-gray hover:text-background"
-          href="https://discord.gg/yB4DGpH884"
+          className="md:w-3/4 lg:w-1/2 font-bold py-2 px-4 rounded border-2 border-gray bg-gray text-background hover:bg-background hover:text-black"
+          href={projectUrl}
         >
           Open Project
         </a>
