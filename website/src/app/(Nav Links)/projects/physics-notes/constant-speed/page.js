@@ -92,7 +92,7 @@ const ConstantSpeed = () => {
             <iframe
               className="w-full"
               height="272"
-              src="https://nikko-adrian-pacleb.github.io/smacs-visuals/Physics-Visuals/Constant-Speed-p5/index.html"
+              src="https://smacs-mtsac.github.io/smacs-visuals/Physics-Visuals/Constant-Speed-p5/index.html"
               title="Constant Speed"
             ></iframe>
             <p className="text-sm">
