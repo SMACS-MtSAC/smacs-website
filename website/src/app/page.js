@@ -10,7 +10,7 @@ export default function Home() {
           alt="SMACS Logo"
           className="mb-8 w-1/1 md:w-1/2 lg:w-1/3 border-none"
         />
-        <h1 className="text-center text-2xl md:text-4xl">
+        <h1 className="text-center text-2xl md:text-4xl text-red-500">
           Science and Mathematics Applied to Computer Science
         </h1>
         <p className="text-sm md:text-lg text-center">
@@ -29,7 +29,7 @@ export default function Home() {
               Events
             </Link>
             <Link
-              className="bg-gray border-gray text-background border-2 hover:text-black hover:bg-background text-white font-bold py-2 px-4 md:px-8 rounded"
+              className=" bg-gray border-gray border-2 hover:text-black hover:bg-background text-white font-bold py-2 px-4 md:px-8 rounded"
               href="/projects"
             >
               Projects
@@ -53,7 +53,7 @@ export default function Home() {
         />
         <div className="flex flex-col space-y-4">
           <h1 className="text-left text-5xl">
-            Science and Mathematics Applied to Computer Science
+            Science and Mathematics Applied to Computer Scienceeeeeee
           </h1>
           <p className="text-xl w-3/4">
             SMACS club aims to explore the intersections of science, math, and
