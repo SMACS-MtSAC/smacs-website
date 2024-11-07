@@ -53,7 +53,7 @@ export default function Home() {
         />
         <div className="flex flex-col space-y-4">
           <h1 className="text-left text-5xl">
-            Science and Mathematics Applied to Computer Scienceeeeeee
+            Science and Mathematics Applied to Computer Science
           </h1>
           <p className="text-xl w-3/4">
             SMACS club aims to explore the intersections of science, math, and
