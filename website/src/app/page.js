@@ -10,7 +10,7 @@ export default function Home() {
           alt="SMACS Logo"
           className="mb-8 w-1/1 md:w-1/2 lg:w-1/3 border-none"
         />
-        <h1 className="text-center text-2xl md:text-4xl text-red-500">
+        <h1 className="text-center text-2xl md:text-4xl">
           Science and Mathematics Applied to Computer Science
         </h1>
         <p className="text-sm md:text-lg text-center">
