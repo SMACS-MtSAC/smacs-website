@@ -21,7 +21,7 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          href="/"
+          href="/events"
           className={`${
             pathname === "/events" ? "font-bold" : ""
           } md:text-xl lg:text-2xl`}
